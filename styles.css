@@ -9,8 +9,10 @@ body {
 a { 
     text-decoration: none;
 }
+
+/* header */
  
-.menu {
+.menu { 
     height: 90px;
     background-color: #4696e0;
     padding: 20px 40px;
@@ -63,6 +65,8 @@ a {
         display: none;
     }
 }
+
+/* header */
 
 /* seção home */
 
@@ -131,9 +135,6 @@ a {
 
 /* seção difficulty-solution */
 
-
-
-
 .difficulty-solution {
     background: url(imagens/background_ds_2.jpg);
     height: 600px;
@@ -141,7 +142,11 @@ a {
     display: flex;
     column-gap: 400px;
     grid-template-columns: auto auto auto;
-    padding-left: 35px;
+    padding-left: 15px;
+}
+
+.difficulty-solution img {
+    width: 180px;
 }
 
 
@@ -150,7 +155,7 @@ a {
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
-    width: 400%;
+    width: 300%;
     height: 90%;
 }
 
@@ -170,6 +175,16 @@ a {
     color: white;
 
 }
+
+.img-grid  img{
+   
+    height: 300px;
+}
+
+
+
+
+
 
 
 /* seção difficulty-solution */
