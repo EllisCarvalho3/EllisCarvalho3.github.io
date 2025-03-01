@@ -15,7 +15,7 @@ a {
 .menu { 
     height: 90px;
     background-color: #4696e0;
-    padding: 20px 40px;
+    padding-top: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,11 +23,9 @@ a {
 
 .logo-img img {
     width: 40%;
+    padding-left: 50px;
 }
 
-.logo-img2 img {
-    width: 40%;
-}
 
 .header {
     display: flex;
@@ -35,14 +33,11 @@ a {
     gap: 70px;
 }
 
-.panqueca {
-    padding-left: 100px;
-}
+
 
 .header-links {
     display: flex;
     gap: 50px;
-   padding-left: 80px;
     padding-inline: 24px;
     transition: 0.4s;
 }
@@ -50,7 +45,8 @@ a {
 .header-links a {
     font-weight: 500;
     font-size: 25px;
-    color:#9eccf7;
+    
+    color:rgb(158, 204, 247);
     padding: 10px 16px;
     transition: 0.4s;
 }
@@ -58,6 +54,16 @@ a {
 .header-links a:hover {
     color: rgb(7, 80, 175);
 }
+
+    /* .header-links a:hover:not(.active) {
+    color: rgb(4, 46, 101);
+}
+
+.active{
+    color: rgb(4, 46, 101);
+}
+
+*/
 
 
 @media (max-width: 53rem) {
@@ -71,7 +77,7 @@ a {
 /* seção home */
 
 .home-img {
-    background-color: #dae9f7d7;
+    background-color: #dae9f77f;
     background-size: cover;
     height: 600px;
     display: flex;
@@ -135,14 +141,20 @@ a {
 
 /* seção difficulty-solution */
 
+
+.section-difficulty-colution {
+    
+}
+
 .difficulty-solution {
-    background: url(imagens/background_ds_2.jpg);
+   background: linear-gradient(to bottom right, rgb(251, 251, 252), rgba(199, 223, 245, 0.69)), rgba(176, 213, 249, 0.755);
+  
     height: 900px;
     flex-direction: row;
     display: flex;
     column-gap: 300px;
     grid-template-columns: auto auto auto;
-    padding-left: 40px;
+    padding-left: 100px;
 }
 
 .difficulty-solution img {
@@ -152,7 +164,7 @@ a {
 
 
 .grid-item {
-    background-color: #9eccf7;
+    background-color: #c6dff7;
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
