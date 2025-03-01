@@ -137,16 +137,17 @@ a {
 
 .difficulty-solution {
     background: url(imagens/background_ds_2.jpg);
-    height: 600px;
+    height: 900px;
     flex-direction: row;
     display: flex;
-    column-gap: 400px;
+    column-gap: 300px;
     grid-template-columns: auto auto auto;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 .difficulty-solution img {
     width: 180px;
+    height: 340px;
 }
 
 
@@ -155,8 +156,8 @@ a {
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
-    width: 300%;
-    height: 90%;
+    width: 200%;
+    height: 65%;
 }
 
 .btn-2 {
@@ -176,10 +177,9 @@ a {
 
 }
 
-.img-grid  img{
-   
-    height: 300px;
-}
+
+
+
 
 
 
