@@ -267,6 +267,7 @@ a {
 
 /* sessão about */
 
+
 /* sessão f&q */
 
 .section-fq {
@@ -286,7 +287,6 @@ a {
 .fq-text h1{
     font-size: 25px;
     font-family: 'Pacifico';
-
 } 
 
 .fq-text p {
@@ -397,6 +397,119 @@ a {
 }
 
 /* galeria de imagens linda */
+
+/* galeria 2 */
+
+.section-galeria-ellis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.certificados {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #295dbd;
+}
+
+.certificados-ellis {
+    flex: 1;
+    padding: 20px;
+}
+
+.certificados-ellis h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+    font-family: 'Pacifico';
+
+}
+
+.certificados-ellis p {
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+
+}
+
+.galeria-ellis {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-ellis {
+    position: relative;
+    width: 1000%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 1px solid #218bc9;
+    height: 78%;
+}
+
+.slider-ellis input {
+    display: none;
+}
+
+.images-container-ellis {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.images-container-ellis img {
+    height: 400px;
+    width: 100%;
+    flex: 0 0 100%;
+    object-fit: cover;
+}
+
+.dots-ellis {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots-ellis label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #218bc9 2px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots-ellis label:hover {
+    background: #218bc998;
+}
+
+#img5:checked ~ .images-container-ellis {
+    transform: translateX(0);
+}
+
+#img6:checked ~ .images-container-ellis {
+    transform: translateX(-100%);
+}
+
+#img7:checked ~ .images-container-ellis {
+    transform: translateX(-200%);
+}
+
+#img8:checked ~ .images-container-ellis {
+    transform: translateX(-300%);
+}
+
+
+
+
+/* galeria 2 */
+
+
+
+
 
 /* sessão f&q */
 
