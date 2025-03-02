@@ -164,7 +164,7 @@ a {
 
 
 .difficulty-solution {
-   background: linear-gradient(to bottom right, rgb(251, 251, 252), rgba(199, 223, 245, 0.69)), rgba(176, 213, 249, 0.755);
+   background: url(imagens/estrelas.jpg);
   
     height: 900px;
     flex-direction: row;
