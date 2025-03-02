@@ -246,6 +246,7 @@ a {
 .about-img h3 {
     font-size: 23px;
     font-family: 'Oleo Script Swash Caps';
+    padding-left: 40px;
 }
 
 .btn3 {
@@ -265,10 +266,73 @@ a {
     color: white;
 }
 
+.about-img-s, .about-img-e {
+    background-color: #dae9f77f;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #2178ca;
+}
+
+
+.position-img-s img {
+    width: 400px;
+    height: 600px;
+}
+
+.position-img-e img {
+    width: 500px;
+    height: 600px;
+}
+
+
+.position-img-e {
+    padding-left: 90px;
+}
+
+.position-img-s {
+    padding-left: 90px;
+}
+
+.about-img-s h2 {
+    font-size: 40px;
+    font-family: 'Pacifico';
+    text-align: center;
+    padding-left: 200px;
+}
+
+.about-img-e h2 {
+    font-size: 40px;
+    font-family: 'Pacifico';
+    text-align: center;
+    padding-left: 200px;
+}
+
+.about-img-s p {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+    padding-left: 120px;
+}
+
+.about-img-e p {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+    padding-left: 120px;
+}
+
+
 /* sessão about */
 
 
 /* sessão f&q */
+
+
+
+
 
 .section-fq {
     height: 600px;
