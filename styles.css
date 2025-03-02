@@ -272,6 +272,7 @@ a {
 
 .section-fq {
     height: 600px;
+    background-color: #0a4d8b;
 }
 
 .fq-text {
@@ -280,7 +281,7 @@ a {
     padding-right: 380px;
     font-size: 20px;
     text-align: center;
-    color: #2178ca
+    color: #e3f1ff;
 
 }
 
@@ -501,28 +502,22 @@ a {
 #img8:checked ~ .images-container-ellis {
     transform: translateX(-300%);
 }
-
-
-
-
 /* galeria 2 */
 
-
-
-
-
 /* sessão f&q */
+
+
 
 /* section mensage */
 
 .section-message {
-    background-color: #dae9f77f;
+    background-color: #0a4d8b;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     display: flex;
     flex-direction: row;
     text-align: center;
-    color: #2178ca;
+    color: #e3f1ff;
 }
 
 .section-message h3 {
