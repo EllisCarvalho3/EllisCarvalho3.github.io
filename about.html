@@ -31,6 +31,37 @@
     </nav>
 
     <section class="section-about" id="section-about">
+        <div class="tamanho-video">
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/background_2.mp4" type="video/mp4">
+              </video>
+              
+        </div>
+
+          <div class="content">
+            <h1>E&S</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum harum ullam veritatis tempore, facere ea eum nesciunt tenetur iure cum sunt! Omnis consequatur, eaque hic magni aliquid nisi neque.</h3>
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+          </div>
+    </section>
+
+    
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+
+    <section class="section-about" id="section-about">
         <div class="about-img">
             <div class="position-img">
                 <img src="imagens-about/ellis_sasa.png" alt="ellis_e_sasa">
