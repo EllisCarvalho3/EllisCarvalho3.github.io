@@ -10,13 +10,14 @@
 
 
 body {  
-
     background-size: cover;
 }
 
 a { 
     text-decoration: none;
 }
+
+/* home.html */
 
 /* header */
  
@@ -40,8 +41,6 @@ a {
     align-items: center;
     gap: 70px;
 }
-
-
 
 .header-links {
     display: flex;
@@ -73,7 +72,6 @@ a {
 
 */
 
-
 @media (max-width: 53rem) {
     .header {
         display: none;
@@ -82,7 +80,7 @@ a {
 
 /* header */
 
-/* seção home */
+/* sessão home */
 
 .home-img {
     background-color: #dae9f77f;
@@ -132,30 +130,38 @@ a {
 .btn1:hover {
     background-color: #295dbd;
     color: white;
-
 }
 
-/* seção home */
+/* sessão home */
 
-/* seção reflection */
+/* sessão reflection */
 
 .reflection-text {
     padding-top: 50px;
-    height: 500px;
+    height: 650px;
     padding-left: 380px;
     padding-right: 380px;
     font-size: 20px;
     text-align: center;
+    color: #2178ca
 }
 
-/* seção reflection */  
-
-/* seção difficulty-solution */
-
-
-.section-difficulty-colution {
-    
+.reflection-text h2 {
+    font-size: 25px;
+    font-family: 'Pacifico';
+    color: #2178ca
 }
+
+.reflection-text p{
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+    color: #2178ca
+}
+
+/* sessão reflection */  
+
+/* sessão difficulty-solution */
+
 
 .difficulty-solution {
    background: linear-gradient(to bottom right, rgb(251, 251, 252), rgba(199, 223, 245, 0.69)), rgba(176, 213, 249, 0.755);
@@ -173,14 +179,14 @@ a {
     height: 340px;
 }
 
-
 .grid-item {
     background-color: #c6dff7;
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
     width: 200%;
-    height: 65%;
+    height: 70%;
+    font-family: 'Pacifico';
 }
 
 .btn-2 {
@@ -200,6 +206,95 @@ a {
 
 }
 
+/* sessão difficulty-solution */
+
+/* home.html */
+
+
+/* about.html */
+
+/* sessão about */
+
+.about-img {
+    background-color: #dae9f77f;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #2178ca;
+}
+
+.position-img img {
+    width: 400px;
+    height: 600px;
+}
+
+.position-img {
+    padding-left: 90px;
+}
+
+.about-img h1 {
+    font-size: 60px;
+    font-family: 'Pacifico';
+}
+
+.about-img h2 {
+    font-size: 40px;
+}
+
+.about-img h3 {
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+}
+
+.btn3 {
+    font-weight: 500;
+    font-family: 'Pacifico';
+    font-size: 25px;
+    color: #9eccf7;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #4696e0;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: #295dbd;
+    color: white;
+}
+
+/* sessão about */
+
+/* sessão f&q */
+
+.fq-text {
+    padding-top: 50px;
+    height: 600px;
+    padding-left: 380px;
+    padding-right: 380px;
+    font-size: 20px;
+    text-align: center;
+    color: #2178ca
+}
+
+.fq-text h1 {
+    font-size: 30px;
+    font-family: 'Pacifico';
+    color: #2178ca
+}
+
+.fq-text p{
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+    color: #2178ca
+}
+
+
+
+
+/* sessão f&q */
 
 
 
@@ -210,15 +305,9 @@ a {
 
 
 
-/* seção difficulty-solution */
 
 
-
-
-
-
-
-
+/* about.html */
 
 
 
@@ -312,10 +401,5 @@ footer p{
         align-items: center;
     }
 }
-
-
-
-
-
 
 /* rodape lindao */
