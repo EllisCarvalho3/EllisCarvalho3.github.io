@@ -292,16 +292,35 @@ a {
 }
 
 
-
-
 /* sessão f&q */
 
+/* section mensage */
 
+.section-message {
+    background-color: #dae9f77f;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #2178ca;
+}
 
+.section-message h3 {
+    padding-left: 380px;
+    padding-right: 380px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+}
 
+.section-message h2 {
+    text-align: center;
+    padding-left: 380px;
+    padding-right: 380px;
+}
 
-
-
+/* section-message */
 
 
 
