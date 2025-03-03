@@ -334,12 +334,13 @@ video {
 .about-img-s, .about-img-e {
     background-color: #dae9f77f;
     background-size: cover;
-    height: 600px;
+    height: 860px;
     display: flex;
     flex-direction: row;
     text-align: center;
     color: #2178ca;
 }
+
 
 
 .position-img-s img {
@@ -393,7 +394,7 @@ video {
 
 .skills {
     background: url(imagens/estrelas.jpg);
-     height: 900px;
+     height: 700px;
      flex-direction: row;
      display: flex;
      column-gap: 300px;
@@ -402,22 +403,24 @@ video {
  }
  
  .skills img {
-     width: 160px;
+     width: 180px;
      height: 330px;
  }
- 
+
  .grid-item-skills {
      background-color: #c6dff7;
      border-radius: 10px;
      font-size: 25px;
      text-align: center;
      width: 200%;
-     height: 80%;
+     height: 84%;
      font-family: 'Pacifico';
  }
  
- .grid-item-skills {
+ .grid-item-skills p {
      color: #2178ca;
+     font-size: 25px;
+     font-family: 'Oleo Script Swash Caps';
  
  }
 
