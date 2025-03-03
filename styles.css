@@ -83,13 +83,15 @@ a {
 /* sessão home */
 
 .home-img {
-    background-color: #dae9f77f;
     background-size: cover;
     height: 680px;
     display: flex;
     flex-direction: row;
     text-align: center;
     color: #2178ca;
+    background-color: rgb(238, 245, 255);
+    background-image: linear-gradient(rgb(238, 245, 255), rgb(163, 196, 242));
+    position: relative;
 
 }
 .position-img img {
@@ -104,15 +106,22 @@ a {
 
 .home-img h1 {
     font-size: 52px;
-    font-family: 'Pacifico';
+    font-family: 'Spicy Rice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+   
 }
 
 
 .home-img h3 {
-    font-size: 25px;
-    font-family: 'Oleo Script Swash Caps';
+    font-size: 22px;
+    font-family: 'Playwrite IT Moderna';
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
     text-align: center;
-    padding-left: 60px;
+    padding-left: 52px;
 
 }
 
@@ -120,8 +129,8 @@ a {
     font-weight: 500;
     font-family: 'Pacifico';
     font-size: 25px;
-    color: #9eccf7;
-    background-color: transparent;
+    color: #0a4d8b;
+    background-color: #c6dff79d;
     border-radius: 10px;
     border: 1px solid #4696e0;
     transition: 0.2s ease-in-out;
@@ -130,7 +139,7 @@ a {
 
 .btn1:hover {
     background-color: #295dbd;
-    color: white;
+    color: rgb(206, 233, 240);
 }
 
 /* sessão home */
@@ -336,16 +345,25 @@ video {
     color: white;
 }
 
-.about-img-s, .about-img-e {
+.about-img-s {
     background-color: #dae9f77f;
     background-size: cover;
-    height: 860px;
+    height: 770px;
     display: flex;
     flex-direction: row;
     text-align: center;
     color: #2178ca;
 }
 
+.about-img-e {
+    background-color: #dae9f77f;
+    background-size: cover;
+    height: 920px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #2178ca;
+}
 
 
 .position-img-s img {
@@ -368,30 +386,42 @@ video {
 }
 
 .about-img-s h2 {
-    font-size: 40px;
-    font-family: 'Pacifico';
+    font-size: 52px;
+    font-family: 'Spicy Rice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
     text-align: center;
     padding-left: 200px;
 }
 
 .about-img-e h2 {
-    font-size: 40px;
-    font-family: 'Pacifico';
+    font-size: 52px;
+    font-family: 'Spicy Rice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
     text-align: center;
     padding-left: 200px;
 }
 
 .about-img-s p {
+    font-size: 22px;
+    font-family: 'Playwrite IT Moderna';
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
     text-align: center;
-    font-size: 23px;
-    font-family: 'Oleo Script Swash Caps';
     padding-left: 120px;
 }
 
 .about-img-e p {
+    font-size: 22px;
+    font-family: 'Playwrite IT Moderna';
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
     text-align: center;
-    font-size: 23px;
-    font-family: 'Oleo Script Swash Caps';
     padding-left: 120px;
 }
 
