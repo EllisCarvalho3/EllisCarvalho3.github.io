@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  apache:
+    image: 'php:7.4-apache'
+    container_name: php-portfolio_ellis_sasa
+    ports:
+      - '8081:80'
+    volumes:
+      - ./rep_psw_ellis_sabrina-1:/var/www/html
