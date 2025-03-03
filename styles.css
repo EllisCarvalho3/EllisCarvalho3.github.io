@@ -149,13 +149,13 @@ a {
 .reflection-text h2 {
     font-size: 25px;
     font-family: 'Pacifico';
-    color: #2178ca
+    color: #2178ca;
 }
 
 .reflection-text p{
     font-size: 23px;
     font-family: 'Oleo Script Swash Caps';
-    color: #2178ca
+    color: #2178ca;
 }
 
 /* sessão reflection */  
@@ -174,7 +174,7 @@ a {
 }
 
 .difficulty-solution img {
-    width: 180px;
+    width: 190px;
     height: 340px;
 }
 
@@ -184,8 +184,12 @@ a {
     font-size: 25px;
     text-align: center;
     width: 200%;
-    height: 70%;
+    height: 60%;
     font-family: 'Pacifico';
+}
+
+.grid-item {
+    color: #2178ca;
 }
 
 .btn-2 {
@@ -385,6 +389,37 @@ video {
     padding-left: 120px;
 }
 
+
+
+.skills {
+    background: url(imagens/estrelas.jpg);
+     height: 900px;
+     flex-direction: row;
+     display: flex;
+     column-gap: 300px;
+     grid-template-columns: auto auto auto;
+     padding-left: 100px;
+ }
+ 
+ .skills img {
+     width: 160px;
+     height: 330px;
+ }
+ 
+ .grid-item-skills {
+     background-color: #c6dff7;
+     border-radius: 10px;
+     font-size: 25px;
+     text-align: center;
+     width: 200%;
+     height: 80%;
+     font-family: 'Pacifico';
+ }
+ 
+ .grid-item-skills {
+     color: #2178ca;
+ 
+ }
 
 /* sessão about */
 
