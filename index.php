@@ -1,3 +1,3 @@
 <?php
-echo "PANQUECA";
+echo "PANQUECA DE BANANA";
 ?>
