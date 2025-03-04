@@ -60,7 +60,70 @@
     }
     </script>
 
-    <br>
+<section class="section-social-media" id="section-social-media"> 
+    <div class="es-sm">
+        <div class="box-social-media-sabrina">
+            <div class="aaa">
+            <div class="titulo-links-sm">
+                <h1>Continue por dentro da minha jornada!</h1>
+            </div>
+                <div class="img-social-media-sabrina">
+            <img src="img-galeria-sasa/sasa-contact.png" alt="sabrina-sm">
+        </div>
+            </div>
+        
+        <div class="box-links-sm">
+            <div class="links-sm">
+           
+                
+                <a href="https://br.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                
+                <a href=" https://workspace.google.com/intl/pt-BR/gmail/" target="_blank"><i class="bi bi-envelope"></i></a>
+
+                <a href="https://github.com/sabrinasantana17" target="_blank"><i class="bi bi-github"></i></a>
+
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+
+                <a href="https://www.instagram.com/__sabrina.s17/" target="_blank"><i class="bi bi-instagram"></i></a>
+
+                <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                
+            </div>
+        </div>
+    </div> 
+    <br><br><br><br>
+
+    <div class="box-social-media-ellis">
+        <div class="aaa">
+        <div class="titulo-links-sm">
+                <h1>Siga-me para acompanhar meus projetos!</h1>
+            </div>
+            <div class="img-social-media-ellis">
+            <img src="imagens/eu-removebg-preview.png" alt="ellis-sm">
+        </div>
+        </div>
+        
+        <div class="box-links-sm">
+            <div class="links-sm">
+                
+                <a href="https://www.linkedin.com/in/ellis-xavier-093835354/" target="_blank"><i class="bi bi-linkedin"></i></a>    
+                
+                <a href=" https://workspace.google.com/intl/pt-BR/gmail/" target="_blank"><i class="bi bi-envelope"></i></a>
+            
+                <a href="https://github.com/EllisCarvalho3" target="_blank"><i class="bi bi-github"></i></a>
+
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+
+                <a href="https://www.instagram.com/elliscarv" target="_blank"><i class="bi bi-instagram"></i></a>
+
+                <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                
+               
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
     <section class="formulario" id="formulario">
     <main>
@@ -169,20 +232,20 @@
                             </div>
 
                             <div class="input-endereco-bairro-hobbies">
-                            <label for="hobbies">Hobbies</label>
-                        <input type="text" id="hobbies" name="hobbies" required
-                            placeholder="Digite o que mais gosta de fazer...">
+                            <label for="hobbies">Aptidões</label>
+                        <input type="text" id="aptidões" name="aptidões" required
+                            placeholder="Digite seus interesses pessoais...">
                             </div>
                         </div>
 
                    
 
-                    <div class="grupo-disciplinas">
-                        <div class="input-disciplinas">
+                    <div class="grupo-area-profissional">
+                        <div class="input-area-profissional">
 
-                            <label>Disciplinas Cursadas</label>
+                            <label>Área profissional</label>
 
-                            <div class="checkbox-disciplinas1">
+                            <div class="checkbox-ap1">
                             <input type="checkbox" id="fundamentos de atuacao" name="disciplinasfavoritas[]" value="Fundamentos de Atuação">
                                 <label for="fundamentos de ataucao">Fundamentos de Atuação</label><br>
 
@@ -347,66 +410,6 @@
     <br>
     <br>
     <br><br>
-</section>
-    
-
-<section class="section-social" id="section-social">
-    <h1>SABRINA SOCIAL</h1>
-    <div class="linha-divisora"></div> <br>
-    <p>Conecte-se para acompanhar meus projetos</p>
-
-    <div class="links-socials">
-        
-        <a href="https://www.youtube.com/vancouverfilmschool" target="_blank"><i class="bi bi-youtube"></i></a>
-
-        <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-
-        <a href="https://www.instagram.com/vancouverfilmschool/" target="_blank"><i class="bi bi-instagram"></i></a>
-
-        <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
-
-        <a href="https://br.linkedin.com/school/vancouver-film-school/" target="_blank"><i class="bi bi-linkedin"></i></a>
-
-        <a href="https://www.tiktok.com/@vancouverfilmschool" target="_blank"><i class="bi bi-tiktok"></i></a>
-
-    </div>
-    <br><br><br><br><br>
-
-    <h1>ELLIS SOCIAL</h1>
-    <div class="linha-divisora"></div> <br>
-    <p>Conecte-se para acompanhar meus projetos</p>
-
-    <div class="links-socials">
-        
-        <a href="https://www.youtube.com/vancouverfilmschool" target="_blank"><i class="bi bi-youtube"></i></a>
-
-        <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-
-        <a href="https://www.instagram.com/vancouverfilmschool/" target="_blank"><i class="bi bi-instagram"></i></a>
-
-        <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
-
-        <a href="https://br.linkedin.com/school/vancouver-film-school/" target="_blank"><i class="bi bi-linkedin"></i></a>
-
-        <a href="https://www.tiktok.com/@vancouverfilmschool" target="_blank"><i class="bi bi-tiktok"></i></a>
-
-    </div>
-    <br><br><br><br><br>
-
-    <h1>INFORMAÇÕES DE CONTATO</h1>
-    <div class="linha-divisora"></div> <br>
-    <p>Você pode entrar em contato conosco em Vancouver se precisar de respostas para suas perguntas ou ajuda com sua inscrição.</p>
-    <p>Telefone: 604.685.5808</p>
-    <p>Ligação gratuita na América do Norte: 1.800.661.4101</p>
-    <p>Fax: 604.685.5830</p> <br>
-    <p>198 West Hastings St.</p>
-    <p>Vancouver, BC, Canadá V6B 1H2</p>
-
-    <div class="botao-social">
-        <a href="cadaluno.php">Contate-nos</a>
-
-    </div>
-
 </section>
 
 

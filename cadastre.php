@@ -55,7 +55,7 @@
         $nacionalidade = htmlspecialchars($_POST['nacionalidade']);
         $endereco = htmlspecialchars($_POST['endereco']);
         $bairro = htmlspecialchars($_POST['bairro']);
-        $hobbies = htmlspecialchars($_POST['hobbies']);
+        $aptidoes = htmlspecialchars($_POST['aptidoes']);
         
         
          
@@ -102,8 +102,8 @@
              <td>$bairro</td>
          </tr>
          <tr>
-             <th>Hobbies</th>
-             <td>$hobbies</td>
+             <th>Aptidões</th>
+             <td>$aptidoes</td>
          </tr>
         
          
@@ -131,6 +131,7 @@
     echo $POST['País'];
     echo $POST['Endereço'];
     echo $POST['Bairro'];
+    echo $POST['Aptidões'];
     
     ?>
 
