@@ -343,8 +343,6 @@ video {
 /* sessão hobbies */
 
 
-
-
 /* home.html */
 
 
@@ -817,7 +815,7 @@ video {
 .section-message {
     background-color: #0a4d8b;
     background-size: cover;
-    height: 700px;
+    height: 650px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -828,14 +826,34 @@ video {
     padding-left: 380px;
     padding-right: 380px;
     text-align: center;
-    font-size: 23px;
+    font-size: 26px;
     font-family: 'Oleo Script Swash Caps';
+}
+
+.section-message h3 b {
+    color:  #081649;
 }
 
 .section-message h2 {
     text-align: center;
     padding-left: 380px;
     padding-right: 380px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Spicy Rice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 30px;
+}
+
+.section-message h2:hover {
+    color: #0f1f84;
+    font-family: 'Spicy Rice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 31px;
 }
 
 /* section-message */
