@@ -238,155 +238,76 @@
                             </div>
                         </div>
 
-                   
-
                     <div class="grupo-area-profissional">
                         <div class="input-area-profissional">
 
                             <label>Área profissional</label>
 
                             <div class="checkbox-ap1">
-                            <input type="checkbox" id="fundamentos de atuacao" name="disciplinasfavoritas[]" value="Fundamentos de Atuação">
-                                <label for="fundamentos de ataucao">Fundamentos de Atuação</label><br>
+                            <input type="checkbox" id="analista de dados" name="areaprofissional[]" value="Analista de Dados">
+                                <label for="analista de dados">Analista de Dados</label><br>
 
-                                <input type="checkbox" id="ingles para artes criativas" name="disciplinasfavoritas[]" value="INglês para Artes Criativas">
-                                <label for="inlges para artes criativas">Inglês para Artes Criativas</label><br>
+                                <input type="checkbox" id="designer grafico" name="areaprofissional[]" value="Designer Gráfico">
+                                <label for="designer grafico">Designer Gráfico</label><br>
 
 
-                                <input type="checkbox" id="fundacao em arte visual e design" name="disciplinasfavoritas[]" value="Fundação em Arte Visual e Design">
-                                <label for="fundacao em arte visual e design">Fundação em Arte Visual e Design</label><br>
+                                <input type="checkbox" id="marketing digital" name="areaprofissional[]" value="Marketing Digital">
+                                <label for="marketing digital">Marketing Digital</label><br>
                                 </div>
 
-                                <div class="checkbox-disciplinas2">
-                                      <input type="checkbox" id="atuacao para cinema e televisao" name="disciplinasfavoritas[]" value="Atuação para Cinema e Televisão">
-                                <label for="Atuação para Cinema e Televisão">Atuação para Cinema e Televisão</label><br>
+                                <div class="checkbox-ap2">
+                                      <input type="checkbox" id="psicologo" name="areaprofissional[]" value="Psicólogo">
+                                <label for="Psicólogo">Psicólogo</label><br>
 
 
-                                <input type="checkbox" id="producao cinematografica" name="disciplinasfavoritas[]" value="Produção Cinematográfica">
-                                <label for="producao cinematografica">Produção Cinematográfica</label><br>
+                                <input type="checkbox" id="biologo" name="areaprofissional[]" value="Biólogo">
+                                <label for="biologo">Biólogo</label><br>
 
 
-                                <input type="checkbox" id="design de maquiagem para cinema e televisao" name="disciplinasfavoritas[]" value="Design de Maquiagem para Cinema e Televisão">
-                                <label for="design de maquiagem para cinema e televisao">Design de Maquiagem para Cinema e Televisão</label><br>
-                                </div>
-
-                                <div class="checkbox-disciplinas3">
-                                <input type="checkbox" id="design de som" name="disciplinasfavoritas[]" value="Design de Som">
-                                <label for="design de som">Design de Som</label><br>
-
-
-                                <input type="checkbox" id="escrevendo para cinema, televisão e jogos" name="escrevendo para cinema, televisão e jogos[]" value="Escrevendo para Cinema, Televisão e Jogos">
-                                <label for="Escrevendo para Cinema, Televisão e Jogos">Fundamentos de Atuação</label><br>
-
-                                <input type="checkbox" id="animacao 3d e efeitos visuais" name="disciplinasfavoritas[]" value="Animação 3D e Efeitos Visuais">
-                                <label for="animacao 3d e efeitos visuais">Animação 3D e Efeitos Visuais</label><br>
-                                </div>
-
-
-                                <div class="checkbox-disciplinas4">
-                                <input type="checkbox" id="arte conceitual e animacao" name="disciplinasfavoritas[]" value="Arte Conceitual e Animação">
-                                <label for="arte conceitual e animacao">Arte Conceitual e Animação</label><br>
-
-
-                                <input type="checkbox" id="animacao classica" name="disciplinasfavoritas[]" value="Animação Clássica">
-                                <label for="animacao classica">Animação Clássica</label><br>
-
-
-                                <input type="checkbox" id="digital design" name="disciplinasfavoritas[]" value="Digital Design">
-                                <label for="digital design">Digital Design</label><br>
-                                </div>
-
-                                <div class="checkbox-disciplinas5">
-                                    <input type="checkbox" id="design de jogos" name="disciplinasfavoritas[]" value="Design de Jogos">
-                                <label for="design de jogos">Design de Jogos</label><br>
-
-
-                                <input type="checkbox" id="programacao para jogos, web e dispositivos moveis" name="disciplinasfavoritas[]" value="Programação para Jogos, Web e Dispositivos Móveis">
-                                <label for="programacao para jogos, web e dispositivos moveis">Programação para Jogos, Web e Dispositivos Móveis</label><br>
-
-
-                                <input type="checkbox" id="design e desenvolvimento de vr/ar" name="disciplinasfavoritas[]" value="Design e Desenvolvimento de VR/AR">
-                                <label for="design e desenvolvimento de vr/ar">Design e Desenvolvimento de VR/AR</label>
+                                <input type="checkbox" id="nutricionista" name="areaprofissional[]" value="Nutricionista">
+                                <label for="nutricionista">Nutricionista</label><br>
                                 </div>
 
                             </div>
                         </div>
+                        
+                            <label>Áreas de interesse</label>
 
-                        <div class="input-disciplinas">
+                            <div class="checkbox-ap1">
+                            <input type="checkbox" id="UX/UI Design e prototipagem" name="areaprofissional[]" value="Fundamentos de Atuação">
+                                <label for="UX/UI Design e prototipagem">UX/UI Design e prototipagem</label><br>
 
-                        <div class="input-disciplinas">
-
-                            <label>Disciplinas Favoritas</label>
-
-                            <div class="checkbox-disciplinas1">
-                            <input type="checkbox" id="fundamentos de atuacao" name="disciplinasfavoritas[]" value="Fundamentos de Atuação">
-                                <label for="fundamentos de ataucao">Fundamentos de Atuação</label><br>
-
-                                <input type="checkbox" id="ingles para artes criativas" name="disciplinasfavoritas[]" value="INglês para Artes Criativas">
-                                <label for="inlges para artes criativas">Inglês para Artes Criativas</label><br>
+                                <input type="checkbox" id="Inteligência Artificial e Machine Learning" name="areaprofissional[]" value="Inteligência Artificial e Machine Learning">
+                                <label for="Inteligência Artificial e Machine Learning">Inteligência Artificial e Machine Learning</label><br>
 
 
-                                <input type="checkbox" id="fundacao em arte visual e design" name="disciplinasfavoritas[]" value="Fundação em Arte Visual e Design">
-                                <label for="fundacao em arte visual e design">Fundação em Arte Visual e Design</label><br>
+                                <input type="checkbox" id="Automação de processos e macros" name="areaprofissional[]" value="Automação de processos e macros">
+                                <label for="Automação de processos e macros">Automação de processos e macros</label><br>
                                 </div>
 
-                                <div class="checkbox-disciplinas2">
-                                      <input type="checkbox" id="atuacao para cinema e televisao" name="disciplinasfavoritas[]" value="Atuação para Cinema e Televisão">
-                                <label for="Atuação para Cinema e Televisão">Atuação para Cinema e Televisão</label><br>
+                                <div class="checkbox-ap2">
+                                      <input type="checkbox" id="Manutenção e montagem de computadores" name="areaprofissional[]" value="Manutenção e montagem de computadores">
+                                <label for="Manutenção e montagem de computadores">Manutenção e montagem de computadores</label><br>
 
 
-                                <input type="checkbox" id="producao cinematografica" name="disciplinasfavoritas[]" value="Produção Cinematográfica">
-                                <label for="producao cinematografica">Produção Cinematográfica</label><br>
+                                <input type="checkbox" id="Neurociência e aprendizado" name="areaprofissional[]" value="Neurociência e aprendizado">
+                                <label for="Neurociência e aprendizado">Neurociência e aprendizado</label><br>
 
 
-                                <input type="checkbox" id="design de maquiagem para cinema e televisao" name="disciplinasfavoritas[]" value="Design de Maquiagem para Cinema e Televisão">
-                                <label for="design de maquiagem para cinema e televisao">Design de Maquiagem para Cinema e Televisão</label><br>
-                                </div>
+                                <input type="checkbox" id="Oratória e comunicação persuasiva" name="areaprofissional[]" value="Oratória e comunicação persuasiva">
+                                <label for="Oratória e comunicação persuasiva">Oratória e comunicação persuasiva</label><br><br>
+                                </div> 
 
-                                <div class="checkbox-disciplinas3">
-                                <input type="checkbox" id="design de som" name="disciplinasfavoritas[]" value="Design de Som">
-                                <label for="design de som">Design de Som</label><br>
-
-
-                                <input type="checkbox" id="escrevendo para cinema, televisão e jogos" name="escrevendo para cinema, televisão e jogos[]" value="Escrevendo para Cinema, Televisão e Jogos">
-                                <label for="Escrevendo para Cinema, Televisão e Jogos">Fundamentos de Atuação</label><br>
-
-                                <input type="checkbox" id="animacao 3d e efeitos visuais" name="disciplinasfavoritas[]" value="Animação 3D e Efeitos Visuais">
-                                <label for="animacao 3d e efeitos visuais">Animação 3D e Efeitos Visuais</label><br>
-                                </div>
-
-
-                                <div class="checkbox-disciplinas4">
-                                <input type="checkbox" id="arte conceitual e animacao" name="disciplinasfavoritas[]" value="Arte Conceitual e Animação">
-                                <label for="arte conceitual e animacao">Arte Conceitual e Animação</label><br>
-
-
-                                <input type="checkbox" id="animacao classica" name="disciplinasfavoritas[]" value="Animação Clássica">
-                                <label for="animacao classica">Animação Clássica</label><br>
-
-
-                                <input type="checkbox" id="digital design" name="disciplinasfavoritas[]" value="Digital Design">
-                                <label for="digital design">Digital Design</label><br>
-                                </div>
-
-                                <div class="checkbox-disciplinas5">
-                                    <input type="checkbox" id="design de jogos" name="disciplinasfavoritas[]" value="Design de Jogos">
-                                <label for="design de jogos">Design de Jogos</label><br>
-
-
-                                <input type="checkbox" id="programacao para jogos, web e dispositivos moveis" name="disciplinasfavoritas[]" value="Programação para Jogos, Web e Dispositivos Móveis">
-                                <label for="programacao para jogos, web e dispositivos moveis">Programação para Jogos, Web e Dispositivos Móveis</label><br>
-
-
-                                <input type="checkbox" id="design e desenvolvimento de vr/ar" name="disciplinasfavoritas[]" value="Design e Desenvolvimento de VR/AR">
-                                <label for="design e desenvolvimento de vr/ar">Design e Desenvolvimento de VR/AR</label>
-                                </div>
+                                <input type="submit" value="Salvar"> <br><br>
+                             <input type="reset" value="Limpar"> <br>
 
                             </div>
+
+</div>
+</div>    
                            
 
-                            <input type="submit" value="Salvar"> <br><br>
-                             <input type="reset" value="Limpar"> <br>
+                            
                    
                 </form>
             </div>

@@ -1222,7 +1222,7 @@ form p{
 }
 
 .formulario {
-    height: 1790px;
+    height: 1200px;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -1260,7 +1260,12 @@ main {
     margin-left: 8px;
 }
 
-.checkbox-ap1, .checkbox-disciplinas2, .checkbox-disciplinas3, .checkbox-disciplinas4, .checkbox-disciplinas5 {
+.input-area-profissional, .grupo-area-profissional {
+    padding-left: 40px;
+}
+
+
+.checkbox-ap1, .checkbox-ap2 {
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 10px;
@@ -1272,6 +1277,7 @@ main {
 
     label {
         color: #0A5EB0;
+        text-align: center;
     }
 }
 

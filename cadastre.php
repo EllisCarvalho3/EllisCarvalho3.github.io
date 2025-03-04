@@ -109,7 +109,7 @@
          
      </table>";
  } else {
-     echo "<p>Erro: Você não pode acessar sua matrícula antes de realizá-la. Faça o seu cadastro e tente novamente.</p>";
+     echo "<p>Erro: Você não pode acessar seu cadastro antes de realizá-lo. Tente novamente.</p>";
  }
  ?>
 
