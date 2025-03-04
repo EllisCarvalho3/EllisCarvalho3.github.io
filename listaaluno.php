@@ -24,7 +24,7 @@
                     <a href="about.html">About</a>
                     <a href="certifications.html">Certifications</a>
                     <a href="contact.php">Contact</a>
-                    <a href="cadastre.php">Login</a>
+                    <a href="listaaluno.php">Login</a>
                 </div>
 
         </div>
@@ -55,7 +55,6 @@
         $nacionalidade = htmlspecialchars($_POST['nacionalidade']);
         $endereco = htmlspecialchars($_POST['endereco']);
         $bairro = htmlspecialchars($_POST['bairro']);
-        $aptidoes = htmlspecialchars($_POST['aptidoes']);
         
         
          
@@ -101,10 +100,6 @@
              <th>Bairro</th>
              <td>$bairro</td>
          </tr>
-         <tr>
-             <th>Aptidões</th>
-             <td>$aptidoes</td>
-         </tr>
         
          
      </table>";
@@ -131,7 +126,6 @@
     echo $POST['País'];
     echo $POST['Endereço'];
     echo $POST['Bairro'];
-    echo $POST['Aptidões'];
     
     ?>
 

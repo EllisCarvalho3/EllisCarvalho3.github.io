@@ -1248,17 +1248,22 @@ main {
     color: #142f92;
 }
 
-.grupo-nome-sexo-data, .grupo-cpf-email-telefone, .grupo-cidade-uf-pais, .grupo-endereco-bairro-hobbies, .grupo-area-profissional {
+.grupo-nome-sexo-data, .grupo-cpf-email-telefone, .grupo-cidade-uf-pais, .grupo-endereco-bairro-aptidoes, .grupo-area-profissional {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
 
-.input-nome-sexo-data, .input-cpf-email-telefone, .input-cidade-uf-pais, .input-endereco-bairro-hobbies, .input-area-profissional {
+.input-nome-sexo-data, .input-cpf-email-telefone, .input-cidade-uf-pais, .input-endereco-bairro-aptidoes, .input-area-profissional {
     margin-bottom: 30px;
     margin-left: 8px;
 }
+
+.input-endereco-bairro-aptidoes {
+    gap: 40px;
+}
+
 
 .input-area-profissional, .grupo-area-profissional {
     padding-left: 40px;
@@ -1402,7 +1407,7 @@ input[type=submit]:active {
 .section-tabel {
     min-height: 40vh;
     padding: 0.5rem 6rem 2rem;
-    border: solid 1px rgb(75, 95, 212); 
+    background: #e3f1ff;
     border-radius: 6px;
 }  
 

@@ -24,7 +24,7 @@
                     <a href="about.html">About</a>
                     <a href="certifications.html">Certifications</a>
                     <a href="contact.php">Contact</a>
-                    <a href="cadastre.php">Login</a>
+                    <a href="listaaluno.php">Login</a>
                 </div>
 
         </div>
@@ -218,23 +218,17 @@
                             
                         </div>
 
-                        <div class="grupo-endereco-bairro-hobbies">
-                            <div class="input-endereco-bairro-hobbies">
+                        <div class="grupo-endereco-bairro-aptidoes">
+                            <div class="input-endereco-bairro-aptidoes">
                             <label for="endereco">Endereço</label>
                               <input type="text" id="endereco" name="endereco" required
                             placeholder="Digite seu endereço...">
                             </div>
 
-                            <div class="input-endereco-bairro-hobbies">
+                            <div class="input-endereco-bairro-aptidoes">
                             <label for="bairro">Bairro</label>
                         <input type="text" id="bairro" name="bairro" required
                             placeholder="Digite seu bairro...">
-                            </div>
-
-                            <div class="input-endereco-bairro-hobbies">
-                            <label for="hobbies">Aptidões</label>
-                        <input type="text" id="aptidões" name="aptidões" required
-                            placeholder="Digite seus interesses pessoais...">
                             </div>
                         </div>
 
