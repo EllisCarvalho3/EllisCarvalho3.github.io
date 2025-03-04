@@ -491,7 +491,7 @@ video {
 
 .position-img-e img {
     width: 500px;
-    height: 780px;
+    height: 750px;
 }
 
 
@@ -582,6 +582,29 @@ video {
 
 /* sessão f&q */
 
+
+.section-achievements {
+    height: 380px;
+    background-color: #0a4d8b;
+}
+
+.achievements-text {
+    padding-top: 20px;
+    padding-left: 380px;
+    padding-right: 380px;
+    font-size: 20px;
+    text-align: center;
+    color: #e3f1ff;
+
+}
+
+.achievements-text h3{
+    font-size: 28px;
+    font-family: 'Oleo Script Swash Caps';
+} 
+
+
+
 .section-fq {
     height: 580px;
     background-color: #0a4d8b;
@@ -637,18 +660,36 @@ video {
 
 /* galeria de imagens linda */
 
+.img-certificado-sasa img {
+    width: 370px;
+    height: 620px;
+}
+
+.img-certificado-ellis img {
+    width: 500px;
+    height: 610px;
+}
+
+.img-certificado-sasa {
+    padding-left: 30px;
+}
+
+.img-certificado-ellis {
+    padding-left: 90px;
+}
+
 .galeria {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 130px;
     padding-top: 100px;
 }
 
 .slider {
     position: relative;
     width: 1000%;
-    max-width: 600px;
+    max-width: 700px;
     overflow: hidden;
     border: 1px solid #218bc9;
     height: 82%;
@@ -715,7 +756,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 650px;
+    height: 780px;
 }
 
 .certificados {
@@ -734,7 +775,7 @@ video {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 170px;
     padding-left: 100px;
 }
 
@@ -744,7 +785,7 @@ video {
     max-width: 600px;
     overflow: hidden;
     border: 1px solid #218bc9;
-    height: 82%;
+    height: 92%;
 }
 
 .slider-ellis input {
@@ -859,15 +900,7 @@ video {
 /* section-message */
 
 
-
-
-
 /* about.html */
-
-
-
-
-
 
 
 
@@ -897,13 +930,6 @@ video {
     text-align: center;
     color: #0A5EB0;
 }
-
-
-
-
-
-
-
 
 
 form {
