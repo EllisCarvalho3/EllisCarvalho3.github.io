@@ -20,7 +20,7 @@
 
             <div class="header-links">
                 <div class="panqueca">
-                    <a href="home.html">Home</a>
+                    <a href="home.html">Home</a> 
                     <a href="about.html">About</a>
                     <a href="certifications.html">Certifications</a>
                     <a href="contact.php">Contact</a>
