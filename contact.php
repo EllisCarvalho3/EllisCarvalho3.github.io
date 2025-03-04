@@ -250,6 +250,76 @@
                         </div>
 
                         <div class="input-disciplinas">
+
+                        <div class="input-disciplinas">
+
+                            <label>Disciplinas Favoritas</label>
+
+                            <div class="checkbox-disciplinas1">
+                            <input type="checkbox" id="fundamentos de atuacao" name="disciplinasfavoritas[]" value="Fundamentos de Atuação">
+                                <label for="fundamentos de ataucao">Fundamentos de Atuação</label><br>
+
+                                <input type="checkbox" id="ingles para artes criativas" name="disciplinasfavoritas[]" value="INglês para Artes Criativas">
+                                <label for="inlges para artes criativas">Inglês para Artes Criativas</label><br>
+
+
+                                <input type="checkbox" id="fundacao em arte visual e design" name="disciplinasfavoritas[]" value="Fundação em Arte Visual e Design">
+                                <label for="fundacao em arte visual e design">Fundação em Arte Visual e Design</label><br>
+                                </div>
+
+                                <div class="checkbox-disciplinas2">
+                                      <input type="checkbox" id="atuacao para cinema e televisao" name="disciplinasfavoritas[]" value="Atuação para Cinema e Televisão">
+                                <label for="Atuação para Cinema e Televisão">Atuação para Cinema e Televisão</label><br>
+
+
+                                <input type="checkbox" id="producao cinematografica" name="disciplinasfavoritas[]" value="Produção Cinematográfica">
+                                <label for="producao cinematografica">Produção Cinematográfica</label><br>
+
+
+                                <input type="checkbox" id="design de maquiagem para cinema e televisao" name="disciplinasfavoritas[]" value="Design de Maquiagem para Cinema e Televisão">
+                                <label for="design de maquiagem para cinema e televisao">Design de Maquiagem para Cinema e Televisão</label><br>
+                                </div>
+
+                                <div class="checkbox-disciplinas3">
+                                <input type="checkbox" id="design de som" name="disciplinasfavoritas[]" value="Design de Som">
+                                <label for="design de som">Design de Som</label><br>
+
+
+                                <input type="checkbox" id="escrevendo para cinema, televisão e jogos" name="escrevendo para cinema, televisão e jogos[]" value="Escrevendo para Cinema, Televisão e Jogos">
+                                <label for="Escrevendo para Cinema, Televisão e Jogos">Fundamentos de Atuação</label><br>
+
+                                <input type="checkbox" id="animacao 3d e efeitos visuais" name="disciplinasfavoritas[]" value="Animação 3D e Efeitos Visuais">
+                                <label for="animacao 3d e efeitos visuais">Animação 3D e Efeitos Visuais</label><br>
+                                </div>
+
+
+                                <div class="checkbox-disciplinas4">
+                                <input type="checkbox" id="arte conceitual e animacao" name="disciplinasfavoritas[]" value="Arte Conceitual e Animação">
+                                <label for="arte conceitual e animacao">Arte Conceitual e Animação</label><br>
+
+
+                                <input type="checkbox" id="animacao classica" name="disciplinasfavoritas[]" value="Animação Clássica">
+                                <label for="animacao classica">Animação Clássica</label><br>
+
+
+                                <input type="checkbox" id="digital design" name="disciplinasfavoritas[]" value="Digital Design">
+                                <label for="digital design">Digital Design</label><br>
+                                </div>
+
+                                <div class="checkbox-disciplinas5">
+                                    <input type="checkbox" id="design de jogos" name="disciplinasfavoritas[]" value="Design de Jogos">
+                                <label for="design de jogos">Design de Jogos</label><br>
+
+
+                                <input type="checkbox" id="programacao para jogos, web e dispositivos moveis" name="disciplinasfavoritas[]" value="Programação para Jogos, Web e Dispositivos Móveis">
+                                <label for="programacao para jogos, web e dispositivos moveis">Programação para Jogos, Web e Dispositivos Móveis</label><br>
+
+
+                                <input type="checkbox" id="design e desenvolvimento de vr/ar" name="disciplinasfavoritas[]" value="Design e Desenvolvimento de VR/AR">
+                                <label for="design e desenvolvimento de vr/ar">Design e Desenvolvimento de VR/AR</label>
+                                </div>
+
+                            </div>
                            
 
                             <input type="submit" value="Salvar"> <br><br>
@@ -281,9 +351,30 @@
     
 
 <section class="section-social" id="section-social">
-    <h1>E&S SOCIAL</h1>
+    <h1>SABRINA SOCIAL</h1>
     <div class="linha-divisora"></div> <br>
-    <p>Conecte-se conosco para acompanhar nossos projetos</p>
+    <p>Conecte-se para acompanhar meus projetos</p>
+
+    <div class="links-socials">
+        
+        <a href="https://www.youtube.com/vancouverfilmschool" target="_blank"><i class="bi bi-youtube"></i></a>
+
+        <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+
+        <a href="https://www.instagram.com/vancouverfilmschool/" target="_blank"><i class="bi bi-instagram"></i></a>
+
+        <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
+
+        <a href="https://br.linkedin.com/school/vancouver-film-school/" target="_blank"><i class="bi bi-linkedin"></i></a>
+
+        <a href="https://www.tiktok.com/@vancouverfilmschool" target="_blank"><i class="bi bi-tiktok"></i></a>
+
+    </div>
+    <br><br><br><br><br>
+
+    <h1>ELLIS SOCIAL</h1>
+    <div class="linha-divisora"></div> <br>
+    <p>Conecte-se para acompanhar meus projetos</p>
 
     <div class="links-socials">
         
