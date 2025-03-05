@@ -151,8 +151,8 @@ a {
 }
 
 .reflection-text {
-    padding-top: 50px;
-    height: 960px;
+    padding-top: 10px;
+    height: 980px;
     padding-left: 300px;
     padding-right: 300px;
     text-align: center;
@@ -1287,7 +1287,6 @@ main {
     }
 }
 
-
   input[type=date], select {
     width: 100%;
     padding: 12px 20px;
@@ -1385,8 +1384,6 @@ input[type=submit]:active {
     background-color: #86b7f666;
   }
 
-
-
   .tabela h1 {
     font-size: 30px;
     color: #0A5EB0;
@@ -1413,14 +1410,6 @@ input[type=submit]:active {
 }  
 
 /* area de contato + formulario */
-
-
-
-
-
-
-
-
 
 /* rodape lindao */
 

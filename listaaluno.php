@@ -11,13 +11,10 @@
 <body>
 
     <nav class="menu">
-
         <div class="logo-img">
             <img src="imagens/teste_logo2.png" alt="logo2">
         </div>
-
         <div class="header">
-
             <div class="header-links">
                 <div class="panqueca">
                     <a href="home.html">Home</a> 
@@ -26,10 +23,7 @@
                     <a href="contact.php">Contact</a>
                     <a href="listaaluno.php">Login</a>
                 </div>
-
         </div>
-       
-
     </nav>
 
     <br>
@@ -126,18 +120,7 @@
     echo $POST['País'];
     echo $POST['Endereço'];
     echo $POST['Bairro'];
-    
     ?>
-
-
-
-
-
-
-
-
-
-
 
     <br>
 
@@ -155,7 +138,7 @@
             <li><a href="#">Produtos</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="contact.html">Contato</a></li>
+            <li><a href="contact.php">Contato</a></li>
         </ul>
 
         <ul>
