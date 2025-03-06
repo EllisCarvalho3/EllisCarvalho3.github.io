@@ -86,7 +86,7 @@
 
                 <a href="https://www.instagram.com/__sabrina.s17/" target="_blank"><i class="bi bi-instagram"></i></a>
 
-                <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
                 
             </div>
         </div>
@@ -116,7 +116,7 @@
 
                 <a href="https://www.instagram.com/elliscarv" target="_blank"><i class="bi bi-instagram"></i></a>
 
-                <a href="https://x.com/vfs" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
                 
                
             </div>
