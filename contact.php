@@ -35,6 +35,10 @@
     
     <section class="section-about" id="section-about">
         <div class="tamanho-video">
+        <div class="contact-text">
+                    <h1>E&S Studio</h1>
+                    <p>Conheça nossos serviços e veja o quanto somos capazes de contribuir em sua empresa</p>
+        </div>
             <video autoplay muted loop id="myVideo">
                 <source src="videos/background_contact.mp4" type="video/mp4">
               </video>
