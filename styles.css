@@ -19,7 +19,7 @@ a {
 
 /* home.html */
 
-/* header */
+/* header */ 
  
 .menu { 
     height: 90px;
@@ -94,6 +94,7 @@ a {
     position: relative;
 
 }
+
 .position-img img {
     width: 500px;
     height: 600px;
@@ -120,7 +121,7 @@ a {
   font-style: normal;
   font-weight: 100 400;
   font-display: swap;
-    text-align: center;
+    text-align: justify;
     padding-left: 52px;
 
 }
