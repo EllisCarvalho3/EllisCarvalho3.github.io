@@ -26,8 +26,6 @@
         </div>
     </nav>
 
-    <br>
-
     <section class="section-tabel" id="section-tabel">
     <div class="tabela">
 
@@ -118,8 +116,6 @@
     echo $_POST['endereco'];
     echo $_POST['bairro'];
     ?> -->
-
-    <br>
 
 <footer>
     <span class="footer-title">E&S Studio</span>
