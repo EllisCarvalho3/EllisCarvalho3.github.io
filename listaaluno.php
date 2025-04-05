@@ -40,12 +40,10 @@
         $nome = htmlspecialchars($_POST['nome']);
         $sexo = isset($_POST['sexo']) ? htmlspecialchars($_POST['sexo']) : "Não informado";
         $data = htmlspecialchars($_POST['data']);
-        $cpf = htmlspecialchars($_POST
-        ['cpf']);
+        $cpf = htmlspecialchars($_POST ['cpf']);
         $email = htmlspecialchars($_POST['email']);
         $telefone = htmlspecialchars($_POST['telefone']);
         $cidade = htmlspecialchars($_POST['cidade']);
-        $estado = htmlspecialchars($_POST['estado']);
         $nacionalidade = htmlspecialchars($_POST['nacionalidade']);
         $endereco = htmlspecialchars($_POST['endereco']);
         $bairro = htmlspecialchars($_POST['bairro']);
@@ -110,17 +108,16 @@
 
 </section>
 
-<?php 
-    echo $_POST['Nome'];
-    echo $POST['Data de nascimento'];
-    echo $POST['CPF'];
-    echo $POST['Telefone'];
-    echo $POST['Cidade'];
-    echo $POST['UF'];
-    echo $POST['País'];
-    echo $POST['Endereço'];
-    echo $POST['Bairro'];
-    ?>
+<!-- <?php 
+    echo $_POST['nome'];
+    echo $_POST['data'];
+    echo $_POST['cpf'];
+    echo $_POST['telefone'];
+    echo $_POST['cidade'];
+    echo $_POST['nacionalidade'];
+    echo $_POST['endereco'];
+    echo $_POST['bairro'];
+    ?> -->
 
     <br>
 
