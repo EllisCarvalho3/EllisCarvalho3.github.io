@@ -20,10 +20,10 @@
                 <a href="home.html">Início</a>
                     <a href="about.html">Sobre</a>
                     <a href="certifications.html">Certificados</a>
-                    <a href="contact.php">Contato</a>
+                    <a href="social.php">Social</a>
                     <a href="listaaluno.php">Cadastro</a>
                 </div>
-        </div>
+        </div> 
     </nav>
 
     <section class="section-tabel" id="section-tabel">
