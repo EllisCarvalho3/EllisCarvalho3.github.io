@@ -1064,10 +1064,10 @@ video {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        text-shadow: 0px 0px 10px rgb(134, 182, 246),
-        0px 0px 20px rgb(134, 182, 246),
-        0px 0px 40px rgb(134, 182, 246),
-        0px 0px 80px rgb(134, 182, 246);
+        text-shadow: 0px 0px 10px #0F4C75,
+        0px 0px 20px #0F4C75,
+        0px 0px 40px #0F4C75,
+        0px 0px 80px #0F4C75;
     }
     
     .contact-text h1 {
@@ -1237,7 +1237,7 @@ video {
 
 .titulo h2{
     text-align: center;
-    color: #0A5EB0;
+    color: #78B3CE;
 }
 
 form {
@@ -1250,7 +1250,7 @@ form {
 form p{
     font-size: 20px;
     text-align: center;
-    color: #0A5EB0;
+   
 }
 
 .formulario {
@@ -1277,7 +1277,7 @@ main {
     border-radius: 40px;
     box-shadow: 0 12px 16px 0 #417fb5b3, 0 17px 50px 0 #417fb5b3;
     border: 1.5px solid #094d89b3;
-    color: #0F4C75;
+    color: #BBE1FA;
 }
 
 .grupo-nome-sexo-data, .grupo-cpf-email-telefone, .grupo-cidade-uf-pais, .grupo-endereco-bairro-aptidoes, .grupo-area-profissional {
@@ -1313,7 +1313,7 @@ main {
     gap: 5px;
 
     label {
-        color: #0F4C75;
+        color: #578FCA;
         text-align: center;
     }
 }
@@ -1412,7 +1412,11 @@ input[type=submit]:active {
   }
   
   tr:nth-child(even) {
-    background-color: #86b7f666;
+    background-color: #bbe1fac5;
+  }
+
+  th:nth-child(even){
+    background-color: #1B262C;
   }
 
   .tabela h1 {
@@ -1442,7 +1446,7 @@ input[type=submit]:active {
     padding: 0.5rem 6rem 2rem;
     background: black;
     border-radius: 6px;
-    color: white;
+    color: #0F4C75;
 }  
 
 /* area de contato + formulario */
