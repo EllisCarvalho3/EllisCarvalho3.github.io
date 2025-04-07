@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <title>Portfolio</title> 
 </head>
-<body>
+<body> 
 
     <nav class="menu">
         <div class="logo-img">
