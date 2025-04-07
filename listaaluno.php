@@ -206,9 +206,11 @@
                                 <input type="checkbox" id="Oratória e comunicação persuasiva" name="areaprofissional[]" value="Oratória e comunicação persuasiva">
                                 <label for="Oratória e comunicação persuasiva">Oratória e comunicação persuasiva</label><br><br>
                                 </div> 
-
+                              
                                 <input type="submit" value="Salvar"> <br><br>
-                             <input type="reset" value="Limpar"> <br>
+                                <input type="reset" value="Limpar"> <br>
+
+                               
 
                             </div>
 
