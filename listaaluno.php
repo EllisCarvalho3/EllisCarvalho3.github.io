@@ -26,6 +26,204 @@
         </div> 
     </nav>
 
+    <section class="formulario" id="formulario">
+    <main>
+    <div class="box-cadastro">
+                <div class="titulo">
+                    <h2>CADASTRO</h2>
+                </div>
+
+                <form action="listaaluno.php" class="formulario-registro" method="post">
+
+               <div class="grupo-nome-sexo-data">
+                <div class="input-nome-sexo-data">
+                        <label for="">Nome</label>
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome" minlength="4" maxlength="60" required>
+                    </div>
+
+                    <div class="input-nome-sexo-data">
+                    <label for="sexo">Sexo</label><br>
+            <input type="radio" id="masculino" name="sexo" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="Feminino">
+            <label for="feminino">Feminino</label>
+                    </div>
+
+                     <div class="input-nome-sexo-data" >
+                        <label for="data">Data de nascimento</label><br>
+                        <input type="date" id="data" name="data" required>
+                        </div>
+               </div> 
+
+
+                     <div class="grupo-cpf-email-telefone">
+                        <div class="input-cpf-email-telefone">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" name="cpf" required placeholder="Digite seu CPF..." maxlength="14">
+                        </div>
+
+                        <div class="input-cpf-email-telefone">
+                        <label for="email">E-mail</label> <br>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required> <br>
+                        </div>
+
+                        <div class="input-cpf-email-telefone">
+                        <label for="telefone">Telefone/WhatsApp</label> <br>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone..." pattern="[0-9]{10,11}"> 
+                        </div>
+                </div>
+
+                        <div class="grupo-cidade-uf-pais">
+                            <div class="input-cidade-uf-pais">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" name="cidade" required placeholder="Digite sua cidade...">
+                            </div>
+
+                            <div class="input-cidade-uf-pais">
+                            <label for="estado">UF</label>
+                                    <select id="estado" name="uf" required>
+                                    <option value="acre">Acre (AC)</option>
+                                    <option value="alagoas">Alagoas (AL)</option>    
+                                    <option value="amapa">Amapá (AP)</option>
+                                    <option value="amazonas">Amazonas (AM)</option>
+                                    <option value="bahia">Bahia (BA)</option>
+                                    <option value="ceara">Ceará (CE)</option>
+                                    <option value="espirito santo">Espírito Santo (ES)</option>
+                                    <option value="goias">Goiás (GO)</option>
+                                    <option value="maranhao">Maranhão (MA)</option>
+                                    <option value="mato grosso">Mato Grosso (MT)</option>
+                                    <option value="mato grosso do sul">Mato Grosso do Sul (MS)</option>
+                                    <option value="minas gerais">Minas Gerais (MG)</option>
+                                    <option value="para">Pará (PA)</option>
+                                    <option value="paraiba">Paraíba (PB)</option>
+                                    <option value="parana">Paraná (PR)</option>
+                                    <option value="pernambuco">Pernambuco (PE)</option>
+                                    <option value="piaui">Piauí (PI)</option>
+                                    <option value="rio de janeiro">Rio de Janeiro (RJ)</option>    
+                                    <option value="rio grande do norte">Rio Grande do Norte (RN)</option>
+                                    <option value="rio grande do sul">Rio Grande do Sul (RS)</option>
+                                    <option value="rondonia">Rondônia (RO)</option>
+                                    <option value="roraima">Roraima (RR) </option>
+                                    <option value="santa catarina">Santa Catarina (SC)</option>
+                                    <option value="sao paulo">São Paulo (SP)</option>
+                                    <option value="sergipe">Sergipe (SE)</option>
+                                    <option value="tocantins">Tocantins (TO)</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-cidade-uf-pais">
+                            <label for="nacionalidade">Nacionalidade</label>
+                            <input type="text" id="nacionalidade" name="nacionalidade" required placeholder="Digite sua nacionalidade...">
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="grupo-endereco-bairro-aptidoes">
+                            <div class="input-endereco-bairro-aptidoes">
+                            <label for="endereco">Endereço</label>
+                              <input type="text" id="endereco" name="endereco" required
+                            placeholder="Digite seu endereço...">
+                            </div>
+
+                            <div class="input-endereco-bairro-aptidoes">
+                            <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro" required
+                            placeholder="Digite seu bairro...">
+                            </div>
+                        </div>
+
+                    <div class="grupo-area-profissional">
+                        <div class="input-area-profissional">
+
+                            <label>Área profissional</label>
+
+                            <div class="checkbox-ap1">
+                            <input type="checkbox" id="analista de dados" name="areaprofissional[]" value="Analista de Dados">
+                                <label for="analista de dados">Analista de Dados</label><br>
+
+                                <input type="checkbox" id="designer grafico" name="areaprofissional[]" value="Designer Gráfico">
+                                <label for="designer grafico">Designer Gráfico</label><br>
+
+
+                                <input type="checkbox" id="marketing digital" name="areaprofissional[]" value="Marketing Digital">
+                                <label for="marketing digital">Marketing Digital</label><br>
+                                </div>
+
+                                <div class="checkbox-ap2">
+                                      <input type="checkbox" id="psicologo" name="areaprofissional[]" value="Psicólogo">
+                                <label for="Psicólogo">Psicólogo</label><br>
+
+
+                                <input type="checkbox" id="biologo" name="areaprofissional[]" value="Biólogo">
+                                <label for="biologo">Biólogo</label><br>
+
+
+                                <input type="checkbox" id="nutricionista" name="areaprofissional[]" value="Nutricionista">
+                                <label for="nutricionista">Nutricionista</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                            <label>Áreas de interesse</label>
+
+                            <div class="checkbox-ap1">
+                            <input type="checkbox" id="UX/UI Design e prototipagem" name="areaprofissional[]" value="Fundamentos de Atuação">
+                                <label for="UX/UI Design e prototipagem">UX/UI Design e prototipagem</label><br>
+
+                                <input type="checkbox" id="Inteligência Artificial e Machine Learning" name="areaprofissional[]" value="Inteligência Artificial e Machine Learning">
+                                <label for="Inteligência Artificial e Machine Learning">Inteligência Artificial e Machine Learning</label><br>
+
+
+                                <input type="checkbox" id="Automação de processos e macros" name="areaprofissional[]" value="Automação de processos e macros">
+                                <label for="Automação de processos e macros">Automação de processos e macros</label><br>
+                                </div>
+
+                                <div class="checkbox-ap2">
+                                      <input type="checkbox" id="Manutenção e montagem de computadores" name="areaprofissional[]" value="Manutenção e montagem de computadores">
+                                <label for="Manutenção e montagem de computadores">Manutenção e montagem de computadores</label><br>
+
+
+                                <input type="checkbox" id="Neurociência e aprendizado" name="areaprofissional[]" value="Neurociência e aprendizado">
+                                <label for="Neurociência e aprendizado">Neurociência e aprendizado</label><br>
+
+
+                                <input type="checkbox" id="Oratória e comunicação persuasiva" name="areaprofissional[]" value="Oratória e comunicação persuasiva">
+                                <label for="Oratória e comunicação persuasiva">Oratória e comunicação persuasiva</label><br><br>
+                                </div> 
+
+                                <input type="submit" value="Salvar"> <br><br>
+                             <input type="reset" value="Limpar"> <br>
+
+                            </div>
+
+</div>
+</div>             
+                </form>
+            </div>
+        </main>
+        
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+</section>
+
     <section class="section-tabel" id="section-tabel">
     <div class="tabela">
 
