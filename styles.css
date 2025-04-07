@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IT+Moderna:wght@100..400&family=Spicy+Rice&display=swap');
 
 
+
 body {  
     background-size: cover;
 }
@@ -1427,14 +1428,15 @@ input[type=submit]:active {
   }
 
   .formulario {
-    background: #e3f1ff;
+    background: black;
   }
 
 .section-tabel {
     min-height: 40vh;
     padding: 0.5rem 6rem 2rem;
-    background: #e3f1ff;
+    background: black;
     border-radius: 6px;
+    color: white;
 }  
 
 /* area de contato + formulario */

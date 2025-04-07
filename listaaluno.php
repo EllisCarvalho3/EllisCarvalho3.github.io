@@ -26,6 +26,20 @@
         </div> 
     </nav>
 
+    <section class="section-about" id="section-about">
+        <div class="tamanho-video">
+        <div class="contact-text">
+                    <h1>Contate-nos!</h1>
+        </div>
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/cadastrotalvez.mp4" type="video/mp4">
+              </video>
+              
+        </div>
+
+          
+    </section>
+
     <section class="formulario" id="formulario">
     <main>
     <div class="box-cadastro">
