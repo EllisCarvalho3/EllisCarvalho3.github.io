@@ -91,7 +91,7 @@ class Carousel2 {
 
         this.carouselArray.slice(0, 5).forEach((el, i) => {
             el.classList.add(`gallery-item-${i + 6}`);
-        });
+        }); 
     }
 
     setCurrentState(direction) {
