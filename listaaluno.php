@@ -159,7 +159,7 @@
                                 <input type="checkbox" id="designer grafico" name="areaprofissional[]" value="Designer Gráfico">
                                 <label for="designer grafico">Designer Gráfico</label><br>
 
-
+ 
                                 <input type="checkbox" id="marketing digital" name="areaprofissional[]" value="Marketing Digital">
                                 <label for="marketing digital">Marketing Digital</label><br>
                                 </div>
