@@ -295,7 +295,7 @@
          <tr>
              <th>Nacionalidade</th>
              <td>$nacionalidade</td>
-         </tr>
+         </tr> 
          <tr>
              <th>Endereço</th>
              <td>$endereco</td>
