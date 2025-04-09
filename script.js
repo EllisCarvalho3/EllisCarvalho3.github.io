@@ -1,6 +1,5 @@
 // galeria de sasa
 
-
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'next'];
@@ -63,10 +62,7 @@ exampleCarousel.useControls();
 // galeria de sasa 
 
 
-
-
 // galeria de ellis
-
 
 const galleryContainer2 = document.querySelector('.gallery-container-2');
 const galleryControlsContainer2 = document.querySelector('.gallery-controls-2');
@@ -128,6 +124,5 @@ const gallery2Carousel = new Carousel2(galleryContainer2, galleryItems2, gallery
 
 gallery2Carousel.setControls();
 gallery2Carousel.useControls();
-
 
 // galeria de ellis 
