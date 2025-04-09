@@ -11,7 +11,6 @@
 <body>
 
     <nav class="menu">
-
         <div class="logo-img">
             <img src="imagens/teste_logo2.png" alt="logo2">
         </div>
@@ -26,10 +25,7 @@
                     <a href="social.php">Social</a>
                     <a href="listaaluno.php">Cadastro</a>
                 </div>
-
         </div>
-       
-
     </nav>
 
     
@@ -40,11 +36,8 @@
         </div>
             <video autoplay muted loop id="myVideo">
                 <source src="videos/backsocial.mp4" type="video/mp4">
-              </video>
-              
-        </div>
-
-          
+              </video>      
+        </div>          
     </section>
 
      
@@ -120,16 +113,12 @@
                 <a href="https://www.instagram.com/elliscarv" target="_blank"><i class="bi bi-instagram"></i></a>
 
                 <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
-                
                
             </div>
         </div>
     </div>
     </div>
 </section>
-
-  
-
 
     <footer>
         <span class="footer-title">E&S Studio</span>

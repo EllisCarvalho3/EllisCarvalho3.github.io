@@ -34,10 +34,7 @@
             <video autoplay muted loop id="myVideo">
                 <source src="videos/cadastrotalvez.mp4" type="video/mp4">
               </video>
-              
         </div>
-
-          
     </section>
 
     <section class="formulario" id="formulario">
@@ -46,7 +43,6 @@
                 <div class="titulo">
                     <h2>CADASTRO</h2>
                 </div>
-
                 <form action="listaaluno.php" class="formulario-registro" method="post">
 
                <div class="grupo-nome-sexo-data">
@@ -68,7 +64,6 @@
                         <input type="date" id="data" name="data" required>
                         </div>
                </div> 
-
 
                      <div class="grupo-cpf-email-telefone">
                         <div class="input-cpf-email-telefone">
@@ -210,8 +205,6 @@
                                 <input type="submit" value="Salvar"> <br><br>
                                 <input type="reset" value="Limpar"> <br>
 
-                               
-
                             </div>
 
 </div>
@@ -246,9 +239,9 @@
     <h1>CONFIRA SEUS DADOS</h1>
 
     <?php
-    // Verifica se o formulário foi enviado
+    // verifica se o formulário foi enviado
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        // Sanitiza e coleta os dados do formulário
+        // coleta os dados do formulário
         $nome = htmlspecialchars($_POST['nome']);
         $sexo = isset($_POST['sexo']) ? htmlspecialchars($_POST['sexo']) : "Não informado";
         $data = htmlspecialchars($_POST['data']);
@@ -260,8 +253,7 @@
         $endereco = htmlspecialchars($_POST['endereco']);
         $bairro = htmlspecialchars($_POST['bairro']);
         
-        
-         
+        //  tabela com os dados preenchidos
          echo "<table>
          <tr>
              <th>Nome</th>
@@ -304,9 +296,9 @@
              <th>Bairro</th>
              <td>$bairro</td>
          </tr>
-        
          
      </table>";
+     
  } else {
      echo "<p>Erro: Você não pode acessar seu cadastro antes de realizá-lo. Tente novamente.</p>";
  }
