@@ -12,12 +12,10 @@ body {
     background-size: cover;
 }
 
-
 a { 
     text-decoration: none;
 }
 
-/* home.html */
 
 /* header */ 
  
@@ -34,7 +32,6 @@ a {
     width: 40%;
     padding-left: 50px;
 }
-
 
 .header {
     display: flex;
@@ -61,16 +58,7 @@ a {
 .header-links a:hover {
     color: rgb(7, 80, 175);
 }
-
-    /* .header-links a:hover:not(.active) {
-    color: rgb(4, 46, 101);
-}
-
-.active{
-    color: rgb(4, 46, 101);
-}
-
-*/
+ 
 
 @media (max-width: 53rem) {
     .header {
@@ -80,7 +68,7 @@ a {
 
 /* header */
 
-/* sessão home */
+/* sessão home.html */
 
 .home-img {
     background-size: cover;
@@ -92,7 +80,6 @@ a {
     background-color: rgb(238, 245, 255);
     background-image: linear-gradient(rgb(238, 245, 255), rgb(163, 196, 242));
     position: relative;
-
 }
 
 .position-img img {
@@ -111,7 +98,6 @@ a {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-   
 }
 
 
@@ -123,7 +109,6 @@ a {
   font-display: swap;
     text-align: justify;
     padding-left: 52px;
-
 }
 
 .btn1 a {
@@ -143,7 +128,7 @@ a {
     color: rgb(206, 233, 240);
 }
 
-/* sessão home */
+/* sessão home.tml */
 
 /* sessão reflection */
 
@@ -154,13 +139,11 @@ a {
 
 .reflection-text {
     padding-top: 10px;
-   
     padding-left: 300px;
     padding-right: 300px;
     text-align: center;
     color: #2178ca
 }
-
 
 .reflection-text p{
     font-size: 26px;
@@ -191,7 +174,6 @@ a {
 /* sessão reflection */  
 
 /* sessão hobbies */ 
-
 
 .section-hobbies {
     height: 2150px;
@@ -322,7 +304,6 @@ video {
     text-align: center;
     position: absolute;
    max-width: 800px;
-    
 }
 
 
@@ -340,30 +321,20 @@ video {
     font-size: 20px;
     text-align: center;
     color: #e3f1ff;
-
 }
-
 
 /* sessão hobbies */
 
 
-/* home.html */
-
-
-/* about.html */
 
 /* sessão about */
-
-
 
 .tamanho-video {
     background-size: cover;
     background: url(imagens/background_certifications.jpg) no-repeat center;
     position: relative;
     height: 600px;
-   
 }
-
 
 .content {
     text-align: center;
@@ -387,8 +358,6 @@ video {
     font-size: 30px;
     font-family: 'Oleo Script Swash Caps';
 }
-
- 
   
   #myBtn {
     padding: 10px 20px;
@@ -415,7 +384,6 @@ video {
     text-align: center;
     color: #2178ca;
 }
-
 
 .position-img img {
     width: 400px;
@@ -478,7 +446,6 @@ video {
     color: #2178ca;
 }
 
-
 .position-img-s img {
     width: 400px;
     height: 640px;
@@ -489,7 +456,6 @@ video {
     height: 790px;
     padding-left: 30px;
 }
-
 
 .position-img-e {
     padding-left: 5px;
@@ -539,7 +505,7 @@ video {
     padding-left: 120px;
 }
 
-/* area da teansiotionde competencias */
+/* area da teansiotion de competencias */
 
 .grid-layout-skills-1 { 
     padding-top: 30px;
@@ -668,7 +634,6 @@ video {
      padding-right: 100px;
  }
 
-
 .skills {
     background-image: linear-gradient(rgb(163, 196, 242),rgb(238, 245, 255));
      flex-direction: row;
@@ -701,29 +666,120 @@ video {
   }
 
 
-/* area da teansiotionde competencias */
+/* area da teansiotion de competencias */
 
 /* sessão about */
 
 
-/* sessão f&q */
+.section-achievements {
+    height: 380px;
+}
 
+.section-achievements, .section-fq-2, .section-galeria-ellis {
+    background-color: #2a6eaef2;
+}
 
+.achievements-text {
+    padding-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 20px;
+    text-align: center;
+    color: #e3f1ff;
+}
 
+.achievements-text h3{
+    font-size: 28px;
+    font-family: 'Oleo Script Swash Caps';
+} 
 
+.section-fq {
+    height: 580px;
+    background-color: #4696e0;
+}
 
+.fq-text {
+    padding-top: 20px;
+    padding-left: 380px;
+    padding-right: 380px;
+    font-size: 20px;
+    text-align: center;
+    color: #e3f1ff;
+}
 
+.fq-text h1{
+    font-size: 25px;
+    font-family: 'Pacifico';
+} 
 
+.fq-text p { 
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+}
 
+.fq-text p b { 
+    font-size: 23px;
+    font-family: 'Oleo Script Swash Caps';
+    color: #081649;
+}
 
+.section-fq-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 620px;
+}
 
+.fq-text-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    color: #295dbd;
+}
 
+.info-certificados {
+    flex: 1;
+    padding: 20px;
+}
 
+.certifications-img {
+    background: url(imagens/background_certifications3.jpg.avif) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.content-certifications {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 10px rgb(134, 182, 246),
+    0px 0px 20px rgb(134, 182, 246),
+    0px 0px 40px rgb(134, 182, 246),
+    0px 0px 80px rgb(134, 182, 246);
+}
+
+.content-certifications h1 {
+    font-size: 56px;
+    font-family: 'Pacifico';
+    padding-top: 1px;
+}
+
+.content-certifications h3 {
+    font-size: 34px;
+    font-family: 'Oleo Script Swash Caps';
+}
+
+/* galeria dos certificados com java script */
 
 .background-galeria {
     background: #2a6eaef2;
 }
 
+/* galeria de certificados de sasa */
 .gallery {
     width: 100%;
 }
@@ -876,10 +932,10 @@ video {
     background: #555;
 }
 
+/* galeria de certificados de sasa */
 
 
-
-
+/* galeria de certificados de ellis */ 
 
 .gallery-2 {
     width: 100%;
@@ -1033,325 +1089,9 @@ video {
     background: #555;
 }
 
+/* galeria de certificados de ellis */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section-achievements {
-    height: 380px;
-}
-
-.section-achievements, .section-fq-2, .section-galeria-ellis {
-    background-color: #2a6eaef2;
-}
-
-.achievements-text {
-    padding-top: 20px;
-    padding-left: 350px;
-    padding-right: 350px;
-    font-size: 20px;
-    text-align: center;
-    color: #e3f1ff;
-}
-
-.achievements-text h3{
-    font-size: 28px;
-    font-family: 'Oleo Script Swash Caps';
-} 
-
-.section-fq {
-    height: 580px;
-    background-color: #4696e0;
-}
-
-.fq-text {
-    padding-top: 20px;
-    padding-left: 380px;
-    padding-right: 380px;
-    font-size: 20px;
-    text-align: center;
-    color: #e3f1ff;
-
-}
-
-.fq-text h1{
-    font-size: 25px;
-    font-family: 'Pacifico';
-} 
-
-.fq-text p { 
-    font-size: 23px;
-    font-family: 'Oleo Script Swash Caps';
-}
-
-.fq-text p b { 
-    font-size: 23px;
-    font-family: 'Oleo Script Swash Caps';
-    color: #081649;
-}
-
-
-.section-fq-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 620px;
-
-}
-
-.fq-text-2 {
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    color: #295dbd;
-}
-
-.info-certificados {
-    flex: 1;
-    padding: 20px;
-}
-
-.certifications-img {
-    background: url(imagens/background_certifications3.jpg.avif) no-repeat center;
-    background-size: cover;
-    height: 600px;
-    position: relative;
-}
-
-.content-certifications {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 0px 0px 10px rgb(134, 182, 246),
-    0px 0px 20px rgb(134, 182, 246),
-    0px 0px 40px rgb(134, 182, 246),
-    0px 0px 80px rgb(134, 182, 246);
-}
-
-.content-certifications h1 {
-    font-size: 56px;
-    font-family: 'Pacifico';
-    padding-top: 1px;
-}
-
-.content-certifications h3 {
-    font-size: 34px;
-    font-family: 'Oleo Script Swash Caps';
-}
-
-/* galeria de imagens linda */
-
-/* .img-certificado-sasa img {
-    width: 370px;
-    height: 620px;
-}
-
-.img-certificado-ellis img {
-    width: 500px;
-    height: 784px;
-}
-
-.img-certificado-sasa {
-    padding-left: 30px;
-}
-
-.img-certificado-ellis {
-    padding-left: 190px;
-}
-
-.galeria {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding-left: 130px;
-    padding-top: 100px;
-}
-
-.slider {
-    position: relative;
-    width: 1000%;
-    max-width: 700px;
-    overflow: hidden;
-    border: 3px solid #0d467b;
-    background: #2a6ead;
-    border-radius: 10px;
-    height: 78%;
-}
-
-.slider input {
-    display: none;
-}
-
-.images-container {
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-
-.images-container img {
-    height: 400px;
-    width: 100%;
-    flex: 0 0 100%;
-    object-fit: cover;
-}
-
-.dots {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-.dots label {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    border: solid #0d467b 2px;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 5px;
-}
-
-.dots label:hover {
-    background: #4abdff;
-}
-
-#img1:checked ~ .images-container {
-    transform: translateX(0);
-}
-
-#img2:checked ~ .images-container {
-    transform: translateX(-100%);
-}
-
-#img3:checked ~ .images-container {
-    transform: translateX(-200%);
-}
-
-#img4:checked ~ .images-container {
-    transform: translateX(-300%);
-} */
-
-
-
-/* galeria de imagens linda */
-
-/* galeria 2 */
-
-
-/* .section-galeria-ellis {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 780px;
-}
-
-.certificados {
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    color: #295dbd;
-}
-
-.certificados-ellis {
-    flex: 1;
-    padding: 20px;
-}
-
-.galeria-ellis {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding-top: 170px;
-    padding-left: 55px;
-}
-
-.slider-ellis {
-    position: relative;
-    width: 1000%;
-    max-width: 600px;
-    overflow: hidden;
-    border: 3px solid #0d467b;
-    background: #2a6ead;
-    border-radius: 10px;
-    height: 66%;
-} 
-
-.slider-ellis input {
-    display: none;
-}
-
-.images-container-ellis {
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-
-.images-container-ellis img {
-    height: 400px;
-    width: 100%;
-    flex: 0 0 100%;
-    object-fit: cover;
-}
-
-.dots-ellis {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-.dots-ellis label {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    border: solid #0d467b 2px;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 5px;
-}
-
-.dots-ellis label:hover {
-    background: #4abdff;
-}
-
-#img5:checked ~ .images-container-ellis {
-    transform: translateX(0);
-}
-
-#img6:checked ~ .images-container-ellis {
-    transform: translateX(-100%);
-}
-
-#img7:checked ~ .images-container-ellis {
-    transform: translateX(-200%);
-}
-
-#img8:checked ~ .images-container-ellis {
-    transform: translateX(-300%);
-} */
-
-
-/* galeria 2 */
-/* sessão f&q */
+/* galeria dos certificados com java script */
 
 
 /* section mensage */
@@ -1402,11 +1142,8 @@ video {
 
 /* section-message */
 
-/* about.html */
 
-
-
-/* area de contato */
+/* redes sociais */
 
 .contact-text {
         text-align: center;
@@ -1560,13 +1297,9 @@ video {
     box-shadow: 0 12px 16px 0 #417fb5b3, 0 17px 50px 0 #417fb5b3;
 }
 
-/* area de contato */
+/* redes sociais */
 
-
-
-/* formulario */
-
-
+/* formulario para entrar em contato conosco */
 .titulo h2{
     text-align: center;
     color: #78B3CE;
@@ -1582,7 +1315,6 @@ form {
 form p{
     font-size: 20px;
     text-align: center;
-   
 }
 
 .formulario {
@@ -1633,7 +1365,6 @@ main {
     padding-left: 40px;
 }
 
-
 .checkbox-ap1, .checkbox-ap2 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -1649,7 +1380,6 @@ main {
         text-align: center;
     }
 }
-
 
   input[type=date], select {
     width: 100%;
@@ -1681,7 +1411,6 @@ input::placeholder {
     color: #0F4C75;
     opacity: 1;
 }
-
  
 input[type=submit] {
     display: inline-block;
@@ -1731,7 +1460,9 @@ input[type=submit]:active {
       transform: translateY(4px);
    }
 
-/* formulario */
+/* formulario para entrar em contato conosco  */
+
+/* tabela com os dados preenchidos */
 
   table {
     font-family: arial, Helvetica;
@@ -1779,7 +1510,7 @@ input[type=submit]:active {
     color: #0F4C75;
 }  
 
-/* area de contato + formulario */
+/* tabela com os dados preenchidos */
 
 /* rodape lindao */
 
@@ -1827,7 +1558,7 @@ footer ul li a:hover {
 }
 
 .socials a {
-    color: #3e5fd6a5;;
+    color: #3e5fd6a5;
     font-size: 1.1rem;
 }
 
