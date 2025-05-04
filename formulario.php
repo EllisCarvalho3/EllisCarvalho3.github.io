@@ -20,7 +20,7 @@
                 <a href="index.html">Início</a>
                     <a href="about.html">Sobre</a>
                     <a href="certifications.html">Certificados</a>
-                    <a href="social.php">Social</a>
+                    <a href="social.html">Social</a>
                     <a href="formulario.php">Cadastro</a>
                 </div>
         </div> 
