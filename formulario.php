@@ -21,7 +21,7 @@
                     <a href="about.html">Sobre</a>
                     <a href="certifications.html">Certificados</a>
                     <a href="social.php">Social</a>
-                    <a href="listaaluno.php">Cadastro</a>
+                    <a href="formulario.php">Cadastro</a>
                 </div>
         </div> 
     </nav>
@@ -43,7 +43,7 @@
                 <div class="titulo">
                     <h2>CADASTRO</h2>
                 </div>
-                <form action="listaaluno.php" class="formulario-registro" method="post">
+                <form action="formulario.php" class="formulario-registro" method="post">
 
                <div class="grupo-nome-sexo-data">
                 <div class="input-nome-sexo-data">
